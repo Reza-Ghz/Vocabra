@@ -1,6 +1,7 @@
 {
   "name": "vocabra",
   "description": "Learn, Review, Remember",
+  "homepage": "https://reza-ghz.github.io/Vocabra/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
