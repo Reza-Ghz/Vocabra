@@ -1,0 +1,63 @@
+[
+  {
+    "word": "example",
+    "persian_translations": [
+      {
+        "text": "\u0645\u062b\u0627\u0644",
+        "transliteration": "mes\u0101l"
+      }
+    ],
+    "simple_form": "example",
+    "definition": "Something that is representative of a group or illustrates a rule.",
+    "type": "noun",
+    "other_forms": [
+      {
+        "form": "examples",
+        "pos": "noun"
+      }
+    ],
+    "forms": {
+      "singular": [
+        "example"
+      ],
+      "plural": [
+        "examples"
+      ]
+    },
+    "pronunciation": "/\u026a\u0261\u02c8z\u00e6mp\u0259l/",
+    "synonyms": [
+      "instance",
+      "sample",
+      "illustration",
+      "case",
+      "specimen"
+    ],
+    "antonyms": [
+      "counterexample",
+      "exception",
+      "contrast",
+      "anomaly",
+      "deviation"
+    ],
+    "examples": [
+      "Can you give me an example of this principle in action?",
+      "This painting is a good example of his early style.",
+      "The teacher used several examples to make the concept clear."
+    ],
+    "learning_notes": "Often used to introduce or illustrate a rule; commonly followed by of or for (e.g., for example, example of).",
+    "collocations": [
+      "for example",
+      "give an example",
+      "set an example",
+      "a good example",
+      "prime example"
+    ],
+    "word_family": [
+      "exemplify",
+      "exemplary",
+      "exemplar"
+    ],
+    "register": "Neutral/all situations",
+    "word_meaning": "Neutral"
+  }
+]

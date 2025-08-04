@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dictionary",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "word": { "type": "string" },
+      "persian_translations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": { "type": "string" },
+            "transliteration": { "type": "string" }
+          },
+          "required": ["text"]
+        }
+      },
+      "simple_form": { "type": "string" },
+      "definition": { "type": "string" },
+      "type": {
+        "oneOf": [
+          { "type": "string" },
+          { "type": "array", "items": { "type": "string" } }
+        ]
+      },
+      "other_forms": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "form": { "type": "string" },
+            "pos": { "type": "string" }
+          },
+          "required": ["form"]
+        }
+      },
+      "forms": {
+        "type": "object",
+        "patternProperties": {
+          "^[A-Za-z]+$": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      },
+      "pronunciation": { "type": "string" },
+      "synonyms": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "antonyms": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "examples": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "learning_notes": { "type": "string" },
+      "collocations": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "word_family": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "register": { "type": "string" },
+      "word_meaning": { "type": "string" }
+    },
+    "required": ["word", "simple_form", "type", "pronunciation"],
+    "additionalProperties": false
+  }
+}

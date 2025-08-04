@@ -1,0 +1,19 @@
+:root {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #000000;
+  --bs-card-bg: #f8f9fa;
+  --bs-card-color: #000000;
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #0d6efd;
+}
+
+body.dark-mode {
+  --bs-body-bg: #121212;
+  --bs-body-color: #e0e0e0;
+  --bs-card-bg: #1e1e1e;
+  --bs-card-color: #e0e0e0;
+  --bs-btn-bg: #343a40;
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #444;
+}
