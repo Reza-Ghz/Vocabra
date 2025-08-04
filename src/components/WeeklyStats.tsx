@@ -14,6 +14,19 @@ const formatWeekday = (date: string): string => {
     return d.toLocaleDateString(undefined, { weekday: 'long' }); // e.g., "Monday"
 };
 
+const formatDisplayDate = (dateStr: string): string => {
+    const date = new Date(dateStr);
+    const today = new Date();
+    const showYear = date.getFullYear() !== today.getFullYear();
+
+    return date.toLocaleDateString(undefined, {
+        month: 'short',
+        day: 'numeric',
+        ...(showYear && { year: 'numeric' }),
+    });
+};
+
+
 // Get newest to oldest dates
 const getLastNDates = (n: number): string[] => {
     const dates: string[] = [];
@@ -76,7 +89,7 @@ const WeeklyStats: React.FC<WeeklyStatsProps> = ({ recentWords }) => {
                                     style={{ fontFamily: 'monospace' }} // Optional for consistent width
                                 >
                                     <span>
-                                        <strong>{formatWeekday(date)}</strong> ({date})
+                                        <strong>{formatWeekday(date)}</strong> ({formatDisplayDate(date)})
                                     </span>
                                     <span>
                                         {wordCount} word{wordCount !== 1 ? 's' : ''}
