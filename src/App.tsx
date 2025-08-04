@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.scss';
 import {Accordion, Button} from 'react-bootstrap';
-import wordsDict from './data/v1/dict.json';
 import {RecentWordEntry, StoredWord, Word} from "./models/word";
 import WordCard from "./components/WordCard";
 import RecentWords from "./components/RecentWords";
@@ -9,8 +8,8 @@ import SpecialActions from './components/SpecialActions';
 import {HISTORY_SIZE, RECENT_WORDS_KEY, RECENT_WORDS_SIZE, STORED_WORDS_KEY} from "./constants";
 import {AccordionEventKey} from "react-bootstrap/AccordionContext";
 import WeeklyStats from './components/WeeklyStats';
+import wordsData from "./data";
 
-const wordsData = (wordsDict as unknown as Word[]).slice().reverse(); // later words are newer
 
 const enrichWithMeta = (words: Word[]): StoredWord[] =>
     words.map(w => ({
