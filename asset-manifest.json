@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.66509be2.css",
-    "main.js": "/static/js/main.1709a47c.js",
-    "static/js/453.1929f0ef.chunk.js": "/static/js/453.1929f0ef.chunk.js",
-    "index.html": "/index.html",
-    "main.66509be2.css.map": "/static/css/main.66509be2.css.map",
-    "main.1709a47c.js.map": "/static/js/main.1709a47c.js.map",
-    "453.1929f0ef.chunk.js.map": "/static/js/453.1929f0ef.chunk.js.map"
+    "main.css": "/Vocabra/static/css/main.66509be2.css",
+    "main.js": "/Vocabra/static/js/main.d3be65a1.js",
+    "static/js/453.1929f0ef.chunk.js": "/Vocabra/static/js/453.1929f0ef.chunk.js",
+    "index.html": "/Vocabra/index.html",
+    "main.66509be2.css.map": "/Vocabra/static/css/main.66509be2.css.map",
+    "main.d3be65a1.js.map": "/Vocabra/static/js/main.d3be65a1.js.map",
+    "453.1929f0ef.chunk.js.map": "/Vocabra/static/js/453.1929f0ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66509be2.css",
-    "static/js/main.1709a47c.js"
+    "static/js/main.d3be65a1.js"
   ]
 }
