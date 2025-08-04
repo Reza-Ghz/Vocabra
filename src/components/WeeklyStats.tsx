@@ -85,7 +85,7 @@ const WeeklyStats: React.FC<WeeklyStatsProps> = ({ recentWords }) => {
                             return (
                                 <li
                                     key={date}
-                                    className={`d-flex justify-content-between ${wordCount === 0 ? 'text-muted' : ''}`}
+                                    className={`d-flex justify-content-between ${wordCount === 0 ? 'opacity-50' : ''}`}
                                     style={{ fontFamily: 'monospace' }} // Optional for consistent width
                                 >
                                     <span>

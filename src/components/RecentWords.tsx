@@ -22,7 +22,7 @@ const RecentWords: React.FC<Props> = ({ recentWords, wordsData }) => {
                     <Accordion.Header>Recent Words</Accordion.Header>
                     <Accordion.Body>
                         {recentWords.length === 0 ? (
-                            <div className="text-muted">No recent words yet.</div>
+                            <div className="opacity-50">No recent words yet.</div>
                         ) : (
                             <div className="d-flex flex-wrap gap-2">
                                 {recentWords.map(recentWord => (
