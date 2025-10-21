@@ -53,6 +53,9 @@ They are used for processing and loading word data.
 3. Run the loader script:  
    `python loader.py`
 
+## Deploy
+
+`npm run build && npm run deploy`
 
 ## Contributing
 
