@@ -20,6 +20,10 @@ Vocabra is a vocabulary learning application designed to help users learn, revie
 \- npm (Node Package Manager)  
 \- pip (Python Package Installer)
 
+## Todo
+\- search in the list of words
+\- comprehensive progress statistics(read count, remaining words, %)
+
 ## Getting Started
 
 ### Prerequisites
