@@ -9,6 +9,7 @@ import {HISTORY_SIZE, RECENT_WORDS_KEY, RECENT_WORDS_SIZE, STORED_WORDS_KEY} fro
 import {AccordionEventKey} from "react-bootstrap/AccordionContext";
 import WeeklyStats from './components/WeeklyStats';
 import SearchWords from './components/SearchWords';
+import ReadProgress from './components/ReadProgress';
 import wordsData from "./data";
 
 
@@ -224,6 +225,7 @@ const App: React.FC = () => {
                             <SpecialActions/>
                             <SearchWords wordsData={wordsData} />
                             <RecentWords recentWords={recentWords.slice(0, RECENT_WORDS_SIZE)} wordsData={wordsData}/>
+                            <ReadProgress storedWords={storedWords} />
                             <WeeklyStats recentWords={recentWords} />
 
                         </div>
