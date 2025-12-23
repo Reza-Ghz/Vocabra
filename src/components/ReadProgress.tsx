@@ -24,7 +24,7 @@ const ReadProgress: React.FC<ReadProgressProps> = ({ storedWords }) => {
         <Accordion className="mt-3">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                    📊 Read Progress — <strong className="ms-1">Studied: {studiedCount}/{storedWords.length}</strong>
+                    📊 Read Progress — <strong className="ms-1">{studiedCount}/{storedWords.length}</strong>
                 </Accordion.Header>
                 <Accordion.Body>
                     {storedWords.length === 0 ? (
